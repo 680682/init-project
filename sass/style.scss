@@ -109,6 +109,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # myfiles 
 --------------------------------------------------------------*/
+
+
+@import "mysass/300px.scss";
+@import "mysass/grid";
 @import "mysass/site-header";
 @import "mysass/content-area";
 @import "mysass/widget-area";

@@ -906,6 +906,27 @@ object {
 # myfiles 
 --------------------------------------------------------------*/
 
+/*! 300px start */
+
+@media all and (min-width: 300px) {
+  .container {
+    margin: 0 auto;
+    width: 100%;
+    background-color: red;
+  }
+
+  .header {
+    width: 95%;
+    height: 50px;
+    background-color: green;
+    margin: 0 auto;
+  }
+
+  /* --- last bracket --- */
+}
+
+/*! 300px end */
+
 p.site-title {
   background-color: gray;
   display: inline-block;
@@ -973,6 +994,5 @@ html {
 }
 
 body {
-  width: 950px;
   margin: 0 auto;
 }
